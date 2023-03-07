@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gym.myapplication">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SelectMuscleActivity"></activity>
+        <activity android:name=".SelectTargetActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MyVid1" />
+        <activity android:name=".MyVid2" />
+        <activity android:name=".MyVid3" />
+        <activity android:name=".MyVid4" />
+        <activity android:name=".MyVid5" />
+        <activity android:name=".MyVid6" />
+        <activity android:name=".MyVid7" />
+        <activity android:name=".MyVid8" />
+        <activity android:name=".MyVid9" />
+        <activity android:name=".MyVid10" />
+        <activity android:name=".MyVid11" />
+        <activity android:name=".MyVid12" />
+        <activity android:name=".MyVid13" />
+        <activity android:name=".MyVid14" />
+        <activity android:name=".CalenderActivity" />
+        <activity android:name=".Food1Activity" />
+        <activity android:name=".Food2Activity" />
+        <activity android:name=".Food3Activity" />
+        <activity android:name=".Food4Activity" />
+        <activity android:name=".Realcal1Activity" />
+        <activity android:name=".Realcal2Activity" />
+        <activity android:name=".Realcal3Activity" />
+        <activity android:name=".Realcal4Activity" />
+        <activity android:name=".ImageExerciseActivity" />
+        <activity android:name=".VideoExerciseActivity" />
+        <activity android:name=".ExercisesListActivity" />
+        <activity android:name=".ExercisesCategoriesActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
