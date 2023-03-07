@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="An ab fallout is a core exercise with a suspension. In this video, we use TRX for our fallout exercise. TRX ab exercises for building core strength are great because you can easily adjust the exercise to make it easier or harder. Step 1: Adjust the straps so the handles hang below the waist. Step 2: Grasp the handles and lean into the straps as if you were going to do a push-up. Step 3: Keeping your arms straight, lean into the suspension, and raise your arms up and over your head. Step 4: Maintain a neutral spine and keep the rest of your body straight, shoulders should be the only joints that move. Step 5: Pause momentarily during the peak of the exercise, then slowly return to the starting position. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

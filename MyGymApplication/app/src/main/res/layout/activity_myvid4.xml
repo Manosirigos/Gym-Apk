@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text=" TRX band exercises can be easily done from the comfort of your own home. This exercise is simple and can be added to your existing TRX arm workout. The TRX biceps curl can be done in 4 easy steps: Step 1: Ensure the TRX suspension is secured firmly at an elevated position. Grasp the handles with each hand, palms up and facing you. Step 2: Lean back with your feet together. Maintain a neutral position with your spine for the entire lift. Step 3: Using your biceps, bend your elbows and bring your body all the way to the handles. Step 4: LOWER YOURSELF BACK DOWN AND REPEAT."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

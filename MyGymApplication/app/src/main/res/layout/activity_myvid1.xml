@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="Lying leg raises are one of the best lower ab exercises for men at home. Most people do a leg raise lying down on the floor, which will work your abs if done correctly. When doing lying leg raises, correct form on a bench will pre-stretch your abs before you complete the raise part of the exercise.ll The most important part of this exercise is to make sure you keep your legs relatively straight throughout and rolling your pelvis under and up as you raise your legs. If you raise your legs by bending them, you will target your hip flexor muscle instead of your lower abs. Lying Leg Raise — [Step-by-Step Technique] Step 1: Start by lying on a bench (or your bed) with your hips just off the edge and your feet down so your tip-toes are on the floor. Breathe in. Step 2: As you breathe out, raise your legs up towards you, rolling your pelvis under and up to engage your lower abs. Step 3: As you reach the top point, your lower back should be slightly off the bench, and you should feel a squeeze in your abs. Step 4: Breathe in as you slowly lower your legs back down past the point of the bench so you get the stretch in your abs again  ** Pro Tip #1: We recommend you start with 2 sets of 10-15 reps. ** Pro Tip #2: As you complete the exercise, think about rolling your pelvis on the raise and not over-arching your back on the lower."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

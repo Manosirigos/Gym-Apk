@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="The Y fly exercise is great for strengthening your upper back, shoulders, and core. It’s one of the best TRX shoulder exercises that you can add to the end of your workout. It combats getting a tight chest and rounded shoulders by strengthening your back muscles and creating the right balance between your chest and back muscles. TRX Y Fly Tutorial — [Step-by-Step Technique] Step 1: Start facing the suspension trainer and take a handle in each hand. Step 2: Place your feet forward, so you have a slight lean away from the suspension trainer, supporting your bodyweight. Slowly straighten your arms out in front of you. Step 3: Take a deep breath in, then as you breathe out, pull yourself forwards and upwards with your arms going above your head at about a 45-degree angle from your body, into a 'Y' shape. Step 4: Breathing in, slowly lower yourself back to the start position, making sure to keep tension as you lower back. Step 5: Repeat steps 3 and 4 for the prescribed number of reps, then rest before completing your next set. ** Pro Tip #1: To start, complete this exercise as a finisher, with 2-3 sets of 12-15 reps. ** Pro Tip #2: Use this exercise within a functional training session, to make the most of the core stability work needed to control your body position."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

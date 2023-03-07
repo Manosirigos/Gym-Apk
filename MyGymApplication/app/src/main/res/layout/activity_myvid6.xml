@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="TRX Push-Ups — [Step-by-Step Technique] Step 1: Adjust the height of your suspension hoops to match the level of your knees. The higher the hoops, the easier the TRX push-up will be. Step 2: Take one hoop in each hand and make sure your shoulders are in line with your wrists. This will help to prevent shoulder injuries when completing the move. Move your legs behind you until your body is straight. This should be approximately a 45° angle to the floor. Step 3: Squeeze your abs and glutes to ensure your hips don’t sag. This is the starting position. Now slowly lower your body by bending your elbows. Do not get your body lower than your hands; you are likely to damage your shoulders. Step 4: Once you’ve completed the downward move you can lift your body back up by extending your arms. ** Pro Tip #1: To make it more difficult, squeeze your arms together at the elevated position. Push them back out before dropping down again. ** Pro Tip #2: Keep the action smooth or you’ll start spinning on the suspension cables and lose your balance. ** Pro Tip #3: It is essential to keep your spine straight while doing the TRX push-up. This will ensure you have proper form and are working the right muscles. ** Pro Tip #4: Focus on your core as you complete this exercise; you’ll feel the burn and the benefit."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

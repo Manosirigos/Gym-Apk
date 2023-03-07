@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="The Goblet Squat Exercise Guide. It's no secret that squats are a staple exercise for any leg training, muscle building routine. And, on top of that, squats can also be incredibly effective for fat loss. But what if you don't always want to go to the gym to get your squats in? Are there alternatives to traditional barbell back squats that you can do at home? This variation of the traditional squat can be done with a single dumbbell or kettlebell and can be equally effective if done with the proper form, sets, and reps. So, in this goblet squat exercise guide, I'm going to demonstrate the proper technique for the goblet squat, and I'll also give you some routine recommendations for both muscle building and fat loss. Here's the basic overview of the goblet squat exercise guide: - Step 1: Take a kettlebell or dumbbell and hold it in front of your chest. - Step 2: Set your feet just past shoulder width apart. - Step 3: Keeping your core tight and your torso upright, breath in as you lower down like you were sitting in a chair. - Step 4: At the low point of the move, your head and torso should be upright, your butt pushed back, legs at 90 degrees and heels firmly planted on the ground. - Step 5: Pause for 1 second at the bottom, then breathing out, push through your heels back to an upright position. ** Pro Tip #1: Start by using the higher rep range of 10-20 reps."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

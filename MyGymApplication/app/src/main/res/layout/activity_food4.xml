@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodback">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="390dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#C4FFFFFF"
+        android:text=" EAT WHOLE FOODS 90% OF THE TIME!
+• Whole foods.Foods as close as possible to their natural state. Examples: fresh meat, fish, poultry, eggs, pulses, rice etc.
+• Processed foods Usually contain added sugars, nitrates, sodium and more chemicals. Examples: cereals, pizza, cookies, sausages, frozen meals, supplements"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="389dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#C4FFFFFF"
+        android:text="DRINK WATER TO HELP YOU BUILD MUSCLE MASS
+Strength training causes water loss through sweating which can impair muscle recovery and thus, it won’t help you increase your muscle mass. Drinking water prevents dehydration but also hunger since an empty stomach can make you think you’re hungry."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="383dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#C4FFFFFF"
+        android:text="EAT HEALTHY FATS
+Healthy fats improve fat loss and health as they digest slowly. Eat healthy fats with every meal and avoid artificial trans-fats and margarine."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="384dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#BFFFFFFF"
+        android:text="EAT PROTEIN WITH EACH MEAL TO BOOST YOUR MUSCLE MASS
+You should be looking to eat at least 1g per 454g of body-weight. That’s 200g/day if you weigh 91kg. The easiest way to get this amount is to eat a whole protein source with each meal. These include:
+• Red meat. Beef, pork, lamb, etc.
+• Poultry. Chicken, turkey, duck, etc.
+• Fish. Tuna, salmon, sardines, mackerel, etc.
+• Eggs. Don’t believe the cholesterol myths. Eat the yolk.
+• Dairy. Milk, cheese, cottage cheese, quark, yogurt, etc.
+• Whey. Not necessary but great for easy post workout shakes.
+• Try vegan options too, such as lentils, tofu, seeds and nuts.EAT FRUIT AND VEGETABLES WITH EACH MEAL.EAT CARBS ONLY AFTER YOUR WORKOUT.This is rice, pasta, bread, potatoes, quinoa, oats, etc. Avoid white carbs and eat whole grain."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="117dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/dietlogo" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="387dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#D7FFFFFF"
+        android:text=" EAT BREAKFAST TO HELP BUILD MUSCLE MASS:
+This gives you an immediate burst of energy and helps you to stay full until your next meal or snack.Your best bets if your trying to build muscle mass are omelettes, smoothies and cottage cheese."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="109dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="Go to calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

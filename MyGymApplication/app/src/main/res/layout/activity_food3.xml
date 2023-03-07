@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodback">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="379dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#C4FFFFFF"
+        android:text="Watermelon: Immediately after workouts. Watermelon is one of the few fruits that are fast digesting and that leads to higher nitric oxide levels and GH levels after training which are critical for enhancing muscle strength and growth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="374dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#C4FFFFFF"
+        android:text="Wheat Germ: 30 minutes before workouts and any time of day you want slow-digesting carbs:rich in zinc, iron, selenium, potassium and B vitamins, and high in protein with a good amount of branched-chain amino acids, arginine and glutamine "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="375dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#C4FFFFFF"
+        android:text="Together with every meal other foods viable for muscle strength are SPINACH(It’s a great source of glutamine, the amino acid that is highly important for muscle growth, immune function and gastrointestinal health, as well as for boosting GH levels and even metabolic rate), BREAD(contains all nine of the amino acids your body needs for muscle growth) and BROCCOLI(helps to diminish estrogenic effects (fat gain and water retention) and strengthens testosterone’s anabolic effects )"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="376dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#BFFFFFFF"
+        android:text="WHEN: Lunch or dinner: Organic Beef: This meat is important due to its protein content and has been proven to help shed bodyfat while helping to boost muscle mass and strength at the same time.
+
+AMOUNTS: 8 oz of 90% lean ground organic beef: 392 calories, 48g protein, 0g carbs, 22g fat AND SALMON a huge protein and omega-3 fats reported greater muscle strength :8 oz of Atlantic salmon: 416 calories, 45g protein, 0g carbs, 24g fat "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="117dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/dietlogo" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="380dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#D7FFFFFF"
+        android:text="Eggs
+WHEN: Any regular meal.
+
+WHY: The perfect protein, eggs are loaded with cholesterol, typically thought of as an evil food ingredient, but in reality, full of positive benefits, such as maintaining testosterone levels and the integrity of muscle cell membranes.
+
+AMOUNTS: 3 extra-large eggs: 255 calories, 21g protein, 1g carbs, 18g fat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="109dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="Go to calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

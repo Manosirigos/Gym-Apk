@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="Concentration Curl Biceps Exercise — [Step-by-Step Technique] Step 1: Sit on the end of a bench, with a shoulder width foot stance. Brace your non-curling arm against your knee. Step 2: Hold the weight in your curling arm, with your arm fully stretched and your elbow touching against the inside of your knee. Step 3: Alternating arms, curl the weight up across your body, supinating your hand as you curl (pinky twisting out) and concentrating the squeeze in your biceps. Step 4: At the top of the movement, get a peak contraction by squeezing as hard as you can. Step 5: Keep your elbow against your knee throughout the movement, work at a 2 sec up, 3 sec down tempo. Step 6: Complete on each arm for the prescribed number of reps. ** Pro Tip: We recommend starting with 3 sets of 12-15 reps (each arm). **"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text=" The dumbbell bench press is an awesome chest exercise that will help you build a great looking chest and overall physique. Doing the press with dumbbells is also much safer for your shoulders than using a barbell, because the dumbbell allows your arms to move in a more natural arc throughout the pressing motion. Doing the dumbbell bench press will also help build the stabilizer muscles in your shoulder that will make your shoulders functionally strong and will help you to avoid injury. • Step 1: Sit on the end of a bench with the dumbbells resting on your thighs, holding them with a strong grip in the centre of the dumbbell grip. • Step 2: Lower yourself back and bring the dumbbells onto your chest, facing each other. • Step 3: Press the dumbbells up, so they are over your chest and your arms are almost straight. Twist your hands so your thumbs are side by side. • Step 4: Breathing in, slowly lower the dumbbells to a 2 count, so they reach a point in line with your nipples and your arms are just below 90 degrees. • Step 5: Breathing out and leading with your pinky finger, press the dumbbells back up to the start point, with your arms slightly bent. • Step 6: Repeat the dumbbell bench press for the prescribed number of reps. ** Pro Tip: We recommend starting 3 sets of 15-20 reps for the dumbbell bench press.**"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

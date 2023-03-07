@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="** The Seated Arnold Press Exercise Guide - Discover The Proper Form and Routine Recommendations ** -Step 1: Sit on a bench, with either a slight decline from 90 degrees or completely vertical. -Step 2: Hold the dumbbells on your knees to start, then kick them up into a normal shoulder press position, with your arms at 90 degrees and the dumbbells level with your ears. -Step 3: Breathing out and squeezing the grip as tight as you can, press the dumbbells up overhead, bringing them slightly in front of your head. *Tip: You can touch the dumbbells together at the top of the movement, to make sure you get the squeeze into your shoulders. -Step 4: Breathing in, lower the dumbbells back down to the start point, then rotate them inwards in front of your face. *Note: At the lowest point, your upper arms should be parallel to the floor and your palms facing you. -Step 5: Breathing out, rotate your arms back out and press the weight upwards as in step 3. Repeat for the prescribed number of reps and sets. ** Pro Tip #1: We recommend you go slightly lighter in weight than with a normal shoulder press. ** Pro Tip #2: We recommend starting with 12-15 reps for 3 sets after you have done a bigger shoulder exercise."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

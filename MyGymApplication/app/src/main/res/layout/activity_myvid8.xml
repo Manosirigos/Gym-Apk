@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="The TRX tricep extension is the best body weight triceps exercise for building muscle. This TRX triceps exercise is great to add to the end of your workout as your tricep workout finisher. Follow this video tutorial to start building your triceps today. TRX Tricep Extension — [Step-by-Step Technique] Step 1: Start with your back to the suspension trainer and take a handle over each shoulder with your grip on the main handle attachment. Step 2: Place your hands out in front of you so your arms are straight, then walk your feet back to a point where you feel the tension on your arms. Step 3: Breathing in and holding your neutral body position (head, shoulder, hips, knees, and ankles in line), slowly lower yourself forwards by bending your arms. The back of your hand should go towards your forehead. Step 4: Breathing out, press yourself back up into the start position, making sure to squeeze your triceps at the top of the movement. Step 5: Repeat steps 3 and 4 for the prescribed number of reps, then rest before completing your next set. ** Pro Tip #1: To start, complete this exercise with 2-3 sets of 10-15 reps. ** Pro Tip #2: Use this exercise within a functional training session, to make the most of the core stability work needed to control your body position."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

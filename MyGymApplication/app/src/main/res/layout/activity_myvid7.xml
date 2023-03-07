@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="The dumbbell French press is an amazing exercise for increasing the size and strength in your triceps and is one of the only exercises to work all 3 heads of the triceps muscle. The main things to focus on when you do this exercise relate to the position of your upper arm. The first is to keep your elbows tight into your side, so they do not flare out. The second is to make sure your upper arm stays at 90 degrees to your body and doesn’t drop back over your head. This will take tension away from your triceps, resulting in a less effective squeeze. Lying Dumbell French Press — [Step-by-Step Technique] Step 1: Start by lying on a bench, holding a dumbbell in each hand, with them resting on your chest. Step 2: Press the dumbbells straight up in front of you and squeeze the handles. Step 3: Breathing in, slowly lower the dumbbells down, flexing at your elbow and keeping your elbows in tight. The dumbbells will stop just outside your ears. Step 4: Breathing out, press the dumbbells back up to the start position, flexing your triceps at the top and continuing to squeeze the dumbbells. ** Pro Tip #1: We recommend you start with 3 sets of 12-15 reps. ** Pro Tip #2: Using dumbbells instead of a barbell is healthier for your elbows, so for safety, we recommend this exercise as a start."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

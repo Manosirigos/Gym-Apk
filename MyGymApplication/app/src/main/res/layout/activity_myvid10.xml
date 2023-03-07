@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="Strengthening your back muscles helps with posture, prevents injury, and eases the load on daily activities. Also called the inverted row, the TRX row is a body-weight back workout for strengthening the back, upper body, and core. The TRX version is an adaptation of traditional inverted rows but uses a suspension training system instead of a bar. If you don't have access to a suspension system, you can use a dip station or a secured barbell on a squat rack. Some gyms have gymnastic rings which work very well as an alternative to the row with TRX straps. TRX Back Row — [Step-by-Step Technique] Step 1: Anchor the suspension system and adjust the straps to hang just below the knee. Step 2: Grab both handles and make sure they are even. Step 3: Extend your arms and lean back keeping your spine neutral and walk forward. Step 4: Pull yourself up so that the handles touch your body. ** Pro Tip #1: Keep your body in a straight line throughout the entire exercise. ** Pro Tip #2: Squeeze the handles firmly throughout the entire lift. ** Pro Tip #3: Go lower to increase the resistance."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

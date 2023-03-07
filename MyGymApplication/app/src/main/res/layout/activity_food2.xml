@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodback">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="376dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#C4FFFFFF"
+        android:text="Exercise, while not required to lose weight, can help you lose weight more quickly. Lifting weights has particularly good benefits.
+By lifting weights, you’ll burn lots of calories and prevent your metabolism from slowing down, which is a common side effect of losing weight.
+Try going to the gym three to four times a week to lift weights.
+If lifting weights is not an option for you, doing some cardio workouts such as walking, jogging, running, cycling, or swimming is very beneficial for weight loss and general health.
+Both cardio and weightlifting can help with weight loss."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="374dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#C4FFFFFF"
+        android:text="Don’t be afraid of eating fats.
+
+Your body still requires healthy fats no matter what eating plan you choose. Olive oil and avocado oil are great choices for including in your eating plan."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="377dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#C4FFFFFF"
+        android:text="Don’t be afraid to load your plate with leafy green vegetables. They’re packed with nutrients, and you can eat very large amounts without greatly increasing calories and carbs.
+
+Vegetables to include for low carb or low calorie eating plans:
+broccoli
+cauliflower
+spinach
+tomatoes
+kale
+Brussels sprouts
+cabbage
+Swiss chard
+lettuce
+cucumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="376dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#BFFFFFFF"
+        android:text="
+Healthy protein sources include:
+meat: beef, chicken, pork, and lamb
+fish and seafood: salmon, trout, and shrimp
+eggs: whole eggs with the yolk
+plant-based proteins: beans, legumes, quinoa, tempeh, and tofu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="117dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/dietlogo" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="379dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="#D7FFFFFF"
+        android:text="Eat protein, fat, and vegetables
+Each one of your meals should include:
+
+a protein source
+fat source
+vegetables
+a small portion of complex carbohydrates, such as whole grains.
+
+Eating a recommended amount of protein is essential to help preserve your health and muscle mass while losing weight.
+
+Evidence suggests that eating adequate protein may improve cardiometabolic risk factors, appetite, and body weight.
+
+56–91 grams per day for the average male
+46–75 grams per day for the average female."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="109dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="Go to calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

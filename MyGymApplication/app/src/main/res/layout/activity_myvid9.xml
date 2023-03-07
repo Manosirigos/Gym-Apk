@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </VideoView>
+
+    <TextView
+        android:id="@+id/exercise_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="How To Do The Chest Supported Dumbbell Row Correctly. Make sure to engage your back muscles by bringing your shoulder blades back and together. As you’ll see in the video, they shouldn’t move from this position. The Chest Supported Dumbbell Row Form Demonstration (1:15) With your feet firmly planted and shoulder blades back and engaged, start the rowing motion from your back, pretending your arms are cables bringing them up. This exercise is all about isolating your rhomboids, lats, and traps, so make sure that none of the lifting is coming from your arms, only your back. If you feel tension in your arms, you might try a lighter weight in order to dial in the proper form. Different Hand Positions and Variations (2:14) In addition to adjusting your weight to lock in the proper form of this exercise, you can also play around with different hand positions to see if one feels better for you. Sets, Reps and Routine Recommendations For The Chest Supported Dumbbell Row (2:42). Here’s the basic overview of what you’ll discover: - Not a primary back exercise, use a lighter weight at the end of your workout - 3 sets of around 8-15 reps. Higher reps are great for this exercise - Great to do at least 2 times per week, 3 sets each session"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
