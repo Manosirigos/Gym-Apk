@@ -1,0 +1,143 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="gym.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:5:5-51:19
+12        android:name="gym.myapplication.MyApplication"
+12-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:6:9-38
+13        android:allowBackup="true"
+13-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.0.1] C:\Users\manos\.gradle\caches\transforms-3\f724481c2098fbfc4fc4cdd489b07b97\transformed\core-1.0.1\AndroidManifest.xml:22:18-86
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:12:9-40
+23        <activity android:name="gym.myapplication.SelectMuscleActivity" />
+23-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:13:9-67
+23-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:13:19-55
+24        <activity android:name="gym.myapplication.SelectTargetActivity" />
+24-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:14:9-58
+24-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:14:19-55
+25        <activity android:name="gym.myapplication.MainActivity" />
+25-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:15:9-50
+25-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:15:19-47
+26        <activity android:name="gym.myapplication.MyVid1" />
+26-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:16:9-44
+26-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:16:19-41
+27        <activity android:name="gym.myapplication.MyVid2" />
+27-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:17:9-44
+27-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:17:19-41
+28        <activity android:name="gym.myapplication.MyVid3" />
+28-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:18:9-44
+28-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:18:19-41
+29        <activity android:name="gym.myapplication.MyVid4" />
+29-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:19:9-44
+29-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:19:19-41
+30        <activity android:name="gym.myapplication.MyVid5" />
+30-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:20:9-44
+30-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:20:19-41
+31        <activity android:name="gym.myapplication.MyVid6" />
+31-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:21:9-44
+31-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:21:19-41
+32        <activity android:name="gym.myapplication.MyVid7" />
+32-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:22:9-44
+32-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:22:19-41
+33        <activity android:name="gym.myapplication.MyVid8" />
+33-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:23:9-44
+33-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:23:19-41
+34        <activity android:name="gym.myapplication.MyVid9" />
+34-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:24:9-44
+34-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:24:19-41
+35        <activity android:name="gym.myapplication.MyVid10" />
+35-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:25:9-45
+35-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:25:19-42
+36        <activity android:name="gym.myapplication.MyVid11" />
+36-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:26:9-45
+36-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:26:19-42
+37        <activity android:name="gym.myapplication.MyVid12" />
+37-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:27:9-45
+37-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:27:19-42
+38        <activity android:name="gym.myapplication.MyVid13" />
+38-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:28:9-45
+38-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:28:19-42
+39        <activity android:name="gym.myapplication.MyVid14" />
+39-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:29:9-45
+39-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:29:19-42
+40        <activity android:name="gym.myapplication.CalenderActivity" />
+40-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:30:9-54
+40-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:30:19-51
+41        <activity android:name="gym.myapplication.Food1Activity" />
+41-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:31:9-51
+41-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:31:19-48
+42        <activity android:name="gym.myapplication.Food2Activity" />
+42-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:32:9-51
+42-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:32:19-48
+43        <activity android:name="gym.myapplication.Food3Activity" />
+43-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:33:9-51
+43-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:33:19-48
+44        <activity android:name="gym.myapplication.Food4Activity" />
+44-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:34:9-51
+44-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:34:19-48
+45        <activity android:name="gym.myapplication.Realcal1Activity" />
+45-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:35:9-54
+45-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:35:19-51
+46        <activity android:name="gym.myapplication.Realcal2Activity" />
+46-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:36:9-54
+46-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:36:19-51
+47        <activity android:name="gym.myapplication.Realcal3Activity" />
+47-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:37:9-54
+47-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:37:19-51
+48        <activity android:name="gym.myapplication.Realcal4Activity" />
+48-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:38:9-54
+48-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:38:19-51
+49        <activity android:name="gym.myapplication.ImageExerciseActivity" />
+49-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:39:9-59
+49-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:39:19-56
+50        <activity android:name="gym.myapplication.VideoExerciseActivity" />
+50-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:40:9-59
+50-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:40:19-56
+51        <activity android:name="gym.myapplication.ExercisesListActivity" />
+51-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:41:9-59
+51-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:41:19-56
+52        <activity android:name="gym.myapplication.ExercisesCategoriesActivity" />
+52-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:42:9-65
+52-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:42:19-62
+53        <activity android:name="gym.myapplication.RegisterActivity" />
+53-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:43:9-54
+53-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:43:19-51
+54        <activity android:name="gym.myapplication.LoginActivity" >
+54-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:44:9-50:20
+54-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:44:19-48
+55            <intent-filter>
+55-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:45:13-49:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:46:17-69
+56-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:46:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:48:17-77
+58-->C:\Users\manos\Desktop\neogym\MyGymApplication\app\src\main\AndroidManifest.xml:48:27-74
+59            </intent-filter>
+60        </activity>
+61    </application>
+62
+63</manifest>
